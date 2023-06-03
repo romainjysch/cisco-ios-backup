@@ -4,6 +4,8 @@
 
 As a network engineer who is learning Python programming, I have developed a script that performs backups of Cisco IOS switches. The script utilizes the Netmiko library to establish SSH connections with the switches and retrieve the configuration using three different commands: 'show run', 'show vlan', and 'show ver'. The collected  information is then saved in separate text files for each switch.
 
+Please feel free to use and modify this script according to your specific needs. As I'm a beginner in Python, if you encounter any issues or have suggestions for improvements, please don't hesitate to reach out.
+
 ### Backup Process
 
 The script performs the following backup process:
@@ -42,7 +44,3 @@ Before running the script, make sure to replace the following placeholders :
 
 - 'insert_username' : replace with the username of an account with privileged EXEC mode access
 - 'insert_password' : replace with the username's password
-
-## Conclucion
-
-Please feel free to use and modify this script according to your specific needs. As I'm a beginner in Python, if you encounter any issues or have suggestions for improvements, please don't hesitate to reach out.
